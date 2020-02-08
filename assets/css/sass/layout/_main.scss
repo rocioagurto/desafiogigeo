@@ -1,0 +1,31 @@
+.main__titulo {
+    margin: 40px;
+    margin-left: 60px;
+}
+
+.main__card-deck {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.main__card-deck .video {
+    border: none;
+}
+
+
+@media(max-width:767px){
+    .section__titulo{
+      text-align: center;
+    }
+  }
+
+  @media(max-width:576px){
+    .section__titulo{
+      text-align: center;
+      font-size: $xm-large;
+    }
+    h5 {
+      font-size: $medium;
+    }
+
+  }
